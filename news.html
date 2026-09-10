@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News & FAQ — PULSE Esports</title>
+<meta name="description" content="The latest roster moves, results, and stories from PULSE Esports, plus answers to frequently asked questions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo"><span class="dot"></span>PULSE<span>ESPORTS</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#games">Games</a></li>
+      <li><a href="tournaments.html">Tournaments</a></li>
+      <li><a href="teams.html">Teams</a></li>
+      <li><a href="teams.html#leaderboard">Leaderboard</a></li>
+      <li><a href="membership.html">Membership</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="window.location.href='membership.html'">Join the Roster</button>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#about">About</a>
+    <a href="index.html#games">Games</a>
+    <a href="tournaments.html">Tournaments</a>
+    <a href="tournaments.html#services">Services</a>
+    <a href="teams.html">Teams</a>
+    <a href="teams.html#leaderboard">Leaderboard</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="membership.html">Membership</a>
+    <a href="news.html">News</a>
+    <a href="news.html#faq">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+
+<section id="news">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow-kicker">From the newsroom</div>
+      <h2>Latest News</h2>
+      <p>Roster moves, results, and behind-the-scenes stories from across the org.</p>
+    </div>
+    <div class="news-grid">
+      <div class="news-card card reveal">
+        <div class="thumb"><img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=800&q=80" alt="Team celebrating on stage after a win"></div>
+        <div class="news-body">
+          <div class="news-meta"><span class="cat">Results</span> · Sep 8, 2026</div>
+          <h4>PULSE Frontline secures a top-4 finish at the regional qualifier</h4>
+        </div>
+      </div>
+      <div class="news-card card reveal">
+        <div class="thumb"><img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=600&q=80" alt="Analyst reviewing gameplay footage"></div>
+        <div class="news-body">
+          <div class="news-meta"><span class="cat">Analysis</span> · Sep 4, 2026</div>
+          <h4>Breaking down the meta shift ahead of Winter Circuit Finals</h4>
+        </div>
+      </div>
+      <div class="news-card card reveal">
+        <div class="thumb"><img src="https://images.unsplash.com/photo-1556438064-2d7646166914?w=600&q=80" alt="New player being announced on stream"></div>
+        <div class="news-body">
+          <div class="news-meta"><span class="cat">Roster</span> · Aug 29, 2026</div>
+          <h4>PULSE Reflex signs former regional champion ahead of new season</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="faq" style="background:linear-gradient(180deg, transparent, rgba(255,46,99,0.03), transparent);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow-kicker">Good to know</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item open reveal">
+        <button class="faq-q">How do I qualify for a PULSE-hosted tournament? <span class="icon"></span></button>
+        <div class="faq-a"><p>Every circuit event opens with a public qualifier stage. Register through the tournament page during the open registration window and you'll be placed into a bracket automatically.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Can I try out for a PULSE roster? <span class="icon"></span></button>
+        <div class="faq-a"><p>Yes. Our academy program runs open trials each season, and our scouting team also tracks ranked ladders directly for standout performances.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">What's included in an Insider membership? <span class="icon"></span></button>
+        <div class="faq-a"><p>Insider members get an ad-free VOD library, access to a private Discord with the team, monthly AMAs, and early access to tournament tickets.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Do you offer coaching to non-sponsored players? <span class="icon"></span></button>
+        <div class="faq-a"><p>Our coaching service is open to the public on a rolling booking basis, separate from our sponsored roster program. Reach out through the contact form to get started.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">How can my organization partner with PULSE? <span class="icon"></span></button>
+        <div class="faq-a"><p>We work with a limited number of brand and technology partners each season. Send details about your organization through the contact form and our partnerships team will follow up.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="dot"></span>PULSE<span>ESPORTS</span></a>
+        <p>A competitive esports organization fielding pro rosters, running our own tournament circuit, and building the future of the scene.</p>
+        <p style="margin-top:14px;font-size:13.5px;color:var(--text-dim);">📞 <a href="tel:03182064084" style="color:var(--text-dim);">0318&#8209;2064084</a></p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitch">Tw</a>
+          <a href="#" aria-label="X / Twitter">X</a>
+          <a href="#" aria-label="YouTube">Yt</a>
+          <a href="#" aria-label="Discord">Dc</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Organization</h5>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Compete</h5>
+        <ul>
+          <li><a href="tournaments.html">Tournaments</a></li>
+          <li><a href="teams.html#leaderboard">Leaderboard</a></li>
+          <li><a href="index.html#games">Games</a></li>
+          <li><a href="tournaments.html#services">Coaching</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Community</h5>
+        <ul>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="news.html#faq">FAQ</a></li>
+          <li><a href="#">Discord</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Code of Conduct</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 PULSE Esports. All rights reserved.</span>
+      <span>Designed for competitors, by competitors.</span>
+    </div>
+  </div>
+</footer>
+
+
+<a href="https://wa.me/923182064084?text=Hi%20PULSE%20Esports%2C%20I%27d%20like%20to%20get%20in%20touch" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat with PULSE Esports on WhatsApp: 0318-2064084">
+  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="M16.004 3C9.377 3 4 8.373 4 15c0 2.34.653 4.523 1.786 6.39L4 29l7.86-1.75A11.94 11.94 0 0 0 16.004 27C22.63 27 28 21.627 28 15S22.63 3 16.004 3zm.001 21.818a9.77 9.77 0 0 1-4.98-1.363l-.357-.212-3.708.825.79-3.614-.232-.372A9.78 9.78 0 0 1 6.18 15c0-5.415 4.408-9.818 9.825-9.818 5.416 0 9.818 4.403 9.818 9.818 0 5.416-4.402 9.818-9.818 9.818zm5.4-7.34c-.296-.148-1.75-.864-2.02-.963-.27-.099-.468-.148-.665.148-.198.297-.762.963-.934 1.16-.172.198-.344.223-.64.075-.296-.148-1.25-.46-2.38-1.468-.88-.785-1.474-1.754-1.646-2.05-.172-.297-.018-.457.13-.605.134-.133.297-.347.445-.52.148-.174.198-.297.297-.495.099-.198.05-.372-.025-.52-.074-.148-.665-1.603-.912-2.196-.24-.578-.484-.5-.665-.51l-.567-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.478 0 1.462 1.065 2.875 1.213 3.073.148.198 2.096 3.2 5.08 4.488.71.306 1.263.489 1.695.626.712.226 1.36.194 1.872.118.571-.085 1.75-.716 1.997-1.408.247-.693.247-1.286.173-1.409-.074-.123-.272-.198-.568-.346z"/></svg>
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

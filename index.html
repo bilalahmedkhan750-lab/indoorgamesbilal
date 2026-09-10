@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PULSE Esports — Compete at the Speed of Light</title>
+<meta name="description" content="PULSE Esports is a competitive esports organization fielding pro rosters across five titles, running our own tournament circuit, and building the arena for the next generation of champions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<header>
+  <nav class="navbar">
+    <a href="index.html" class="logo"><span class="dot"></span>PULSE<span>ESPORTS</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#games">Games</a></li>
+      <li><a href="tournaments.html">Tournaments</a></li>
+      <li><a href="teams.html">Teams</a></li>
+      <li><a href="teams.html#leaderboard">Leaderboard</a></li>
+      <li><a href="membership.html">Membership</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-cta" onclick="window.location.href='membership.html'">Join the Roster</button>
+    <button class="burger" id="burger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#about">About</a>
+    <a href="index.html#games">Games</a>
+    <a href="tournaments.html">Tournaments</a>
+    <a href="tournaments.html#services">Services</a>
+    <a href="teams.html">Teams</a>
+    <a href="teams.html#leaderboard">Leaderboard</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="membership.html">Membership</a>
+    <a href="news.html">News</a>
+    <a href="news.html#faq">FAQ</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</header>
+
+
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-scanline"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-tag"><span class="live-dot"></span> LIVE — Winter Circuit Finals in 6 days</div>
+      <h1>Where reflexes <br class="br-desktop"><span class="grad">meet strategy.</span></h1>
+      <p class="lead">PULSE is a competitive esports organization fielding pro rosters across five titles, running our own tournament circuit, and building the arena where the next generation of champions is made.</p>
+      <div class="hero-actions">
+        <a href="news.html" class="btn btn-primary">Watch Live Now</a>
+        <a href="tournaments.html" class="btn btn-ghost">View Tournament Schedule</a>
+      </div>
+      <div class="hero-stats">
+        <div><h3>5</h3><span>Pro rosters</span></div>
+        <div><h3>128</h3><span>Tournaments hosted</span></div>
+        <div><h3>2.4M</h3><span>Community members</span></div>
+        <div><h3>$3.1M</h3><span>Prize pool paid out</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="frame-corner fc-tl"></div>
+      <div class="frame-corner fc-br"></div>
+      <img src="https://images.unsplash.com/photo-1542751371-6533d0f5c1f8?w=900&q=80" alt="Professional gamer focused during a competitive match">
+    </div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
+</section>
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="about-visual reveal">
+      <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80" alt="Esports team huddled around monitors during practice">
+    </div>
+    <div class="about-text reveal">
+      <div class="eyebrow-kicker">About PULSE</div>
+      <h2>Built by players, run like a league.</h2>
+      <p>Founded in 2018 by a group of former competitive players, PULSE started as a single Counter-Strike roster practicing out of a rented apartment. Today we operate professional teams across five titles, a broadcast studio, and a tournament circuit that pays out real prize money to grassroots talent.</p>
+      <p>We're not a brand chasing esports — we're a team that grew into one, and every decision still gets made with a controller or mouse in hand.</p>
+      <ul class="about-points">
+        <li>Full-time coaching &amp; analyst staff</li>
+        <li>In-house broadcast &amp; production studio</li>
+        <li>Open qualifiers for every circuit event</li>
+        <li>Player wellness &amp; performance program</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="games">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow-kicker">Titles we compete in</div>
+      <h2>Featured Games</h2>
+      <p>Our rosters compete at the top level across five of the most watched competitive titles in the world.</p>
+    </div>
+    <div class="games-scroll">
+      <div class="game-card reveal">
+        <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=500&q=80" alt="First-person shooter gameplay on a monitor">
+        <div class="game-card-info"><span class="tag">Tactical FPS</span><h4>Frontline Ops</h4></div>
+      </div>
+      <div class="game-card reveal">
+        <img src="https://images.unsplash.com/photo-1519669417670-68775a50919e?w=500&q=80" alt="MOBA-style game map on screen">
+        <div class="game-card-info"><span class="tag">MOBA</span><h4>Rift Legends</h4></div>
+      </div>
+      <div class="game-card reveal">
+        <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=500&q=80" alt="Battle royale game lobby">
+        <div class="game-card-info"><span class="tag">Battle Royale</span><h4>Zone Zero</h4></div>
+      </div>
+      <div class="game-card reveal">
+        <img src="https://images.unsplash.com/photo-1556438064-2d7646166914?w=500&q=80" alt="Fighting game character select screen">
+        <div class="game-card-info"><span class="tag">Fighting</span><h4>Iron Fists</h4></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><span class="dot"></span>PULSE<span>ESPORTS</span></a>
+        <p>A competitive esports organization fielding pro rosters, running our own tournament circuit, and building the future of the scene.</p>
+        <p style="margin-top:14px;font-size:13.5px;color:var(--text-dim);">📞 <a href="tel:03182064084" style="color:var(--text-dim);">0318&#8209;2064084</a></p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitch">Tw</a>
+          <a href="#" aria-label="X / Twitter">X</a>
+          <a href="#" aria-label="YouTube">Yt</a>
+          <a href="#" aria-label="Discord">Dc</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Organization</h5>
+        <ul>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Compete</h5>
+        <ul>
+          <li><a href="tournaments.html">Tournaments</a></li>
+          <li><a href="teams.html#leaderboard">Leaderboard</a></li>
+          <li><a href="index.html#games">Games</a></li>
+          <li><a href="tournaments.html#services">Coaching</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Community</h5>
+        <ul>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="news.html#faq">FAQ</a></li>
+          <li><a href="#">Discord</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Code of Conduct</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 PULSE Esports. All rights reserved.</span>
+      <span>Designed for competitors, by competitors.</span>
+    </div>
+  </div>
+</footer>
+
+
+<a href="https://wa.me/923182064084?text=Hi%20PULSE%20Esports%2C%20I%27d%20like%20to%20get%20in%20touch" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat with PULSE Esports on WhatsApp: 0318-2064084">
+  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#fff"><path d="M16.004 3C9.377 3 4 8.373 4 15c0 2.34.653 4.523 1.786 6.39L4 29l7.86-1.75A11.94 11.94 0 0 0 16.004 27C22.63 27 28 21.627 28 15S22.63 3 16.004 3zm.001 21.818a9.77 9.77 0 0 1-4.98-1.363l-.357-.212-3.708.825.79-3.614-.232-.372A9.78 9.78 0 0 1 6.18 15c0-5.415 4.408-9.818 9.825-9.818 5.416 0 9.818 4.403 9.818 9.818 0 5.416-4.402 9.818-9.818 9.818zm5.4-7.34c-.296-.148-1.75-.864-2.02-.963-.27-.099-.468-.148-.665.148-.198.297-.762.963-.934 1.16-.172.198-.344.223-.64.075-.296-.148-1.25-.46-2.38-1.468-.88-.785-1.474-1.754-1.646-2.05-.172-.297-.018-.457.13-.605.134-.133.297-.347.445-.52.148-.174.198-.297.297-.495.099-.198.05-.372-.025-.52-.074-.148-.665-1.603-.912-2.196-.24-.578-.484-.5-.665-.51l-.567-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.478 0 1.462 1.065 2.875 1.213 3.073.148.198 2.096 3.2 5.08 4.488.71.306 1.263.489 1.695.626.712.226 1.36.194 1.872.118.571-.085 1.75-.716 1.997-1.408.247-.693.247-1.286.173-1.409-.074-.123-.272-.198-.568-.346z"/></svg>
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
